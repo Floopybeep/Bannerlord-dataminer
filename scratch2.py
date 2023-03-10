@@ -1,6 +1,17 @@
+from Crypto.Cipher import Blowfish
+
+# key and data to be decrypted
+key = bytes("01d3d3dab2d3".encode('utf-8'))
 
 
-text = "\x82\x05\x00\x00"
-key = bytes.fromhex(text)
+with open("savefile.sav", 'rb') as sav:
+    data = sav.read()
+# 8120701 bytes
 
-print(key)
+# create the cipher object
+cipher = Blowfish.new(key, Blowfish.MODE_ECB)
+
+# decrypt the data
+decrypted_data = cipher.decrypt(data)
+
+print(decrypted_data)
