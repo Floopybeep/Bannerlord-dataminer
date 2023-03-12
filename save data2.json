@@ -1,0 +1,28 @@
+{
+    "List": {
+        "Modules": "Native;SandBox Core;CustomBattle;Sandbox;StoryMode",
+        "Module_Native": "v1.1.1.14148",
+        "Module_SandBox Core": "v1.1.1.14148",
+        "Module_CustomBattle": "v1.1.1.14148",
+        "Module_Sandbox": "v1.1.1.14148",
+        "Module_StoryMode": "v1.1.1.14148",
+        "ApplicationVersion": "v1.1.1.14148",
+        "CreationTime": "638142228937297094",
+        "UniqueGameId": "01d3d3dab2d3",
+        "MainHeroLevel": "33",
+        "MainPartyFood": "0.25",
+        "MainHeroGold": "1144857",
+        "ClanInfluence": "15584.74",
+        "ClanFiefs": "21",
+        "MainPartyHealthyMemberCount": "0",
+        "MainPartyPrisonerMemberCount": "0",
+        "MainPartyWoundedMemberCount": "0",
+        "CharacterName": "Leosios",
+        "DayLong": "1407.675",
+        "ClanBannerCode": "11.6.6.1528.1528.764.764.1.0.0.102.7.7.568.568.764.764.0.0.0",
+        "MainHeroVisual": "4|human_skeleton|HeadVisible|False|0|NoUnderwear|Normal|All|All|Medium|0|<BodyProperties version=\"4\" age=\"39.2\" weight=\"0.69\" build=\"0.9555\" key=\"0020B806C000340A7C7664876753888A7577866254C69643C4B647398C95A03702ABE6240AA74973000000000000000000000000000000000000000023647002\" />|4287857360|4292778323|imperial_helmet|False|False|False|imperial_lamellar_b|False|True|False|empire_plated_boots|False|True|False|mail_mitten_b|False|True|False|aserai_scale_shoulder_e|False|True|False|horse_skeleton|horse_brown|3EF|horse_white_mat|4281348144|horse_inventory_idle|horse_harness_imperial_b_clotest|False|horse_harness_imperial_b_rein|0",
+        "IronmanMode": "0",
+        "HealthPercentage": "1",
+        "Version": "1"
+    }
+}
