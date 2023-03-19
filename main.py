@@ -3,6 +3,7 @@
 #
 with open("saveauto2.sav", 'rb') as sav:
     data = sav.read()
+    text = data.decode('ISO-8859-1')
 #
 # value = struct.unpack_from('<i', data, 0x10)[0]
 # print(value)
