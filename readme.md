@@ -7,3 +7,18 @@
     - Also stuff like what's in the player's inventory?
   - ChatGPT tells me the data is encrypted. I need to find the encryption method and key... perhaps uniquegameid?
     - 01d3d3dab2d3 in my case
+- 2023.03.13
+  - Seems like they added encryption at e1.7.0. Maybe I should look into that specific version?
+    - ChatGPT suggests it uses XOR and bitwise-shifting algorithms. The authenticity of this is questionable, but it gives me a point to start off of.
+      - It suggests the following libraries for use:
+        - binascii - functions for working with binary data, with XOR operations and binary <-> ASCII conversion
+        - numpy - mainpulating large arrays of data
+        - pycrypto - wide variety of cryptographic functions and tools (XOR encryption, bit-manipulation tools)
+        - bitstring - easy-to-use interface for binary data manipulation (XOR opeartion, bit-shifting, etc)
+        - pwntools - CTF competitions and exploit development? Has functions for generating/manipulating binary data
+      - For XOR cracking, there are a number of scripts
+        - XOR Bruteforcer(Brute-Force), XOR Tool(freq analysis, repeated patterns, possible keys), XORCrack(designed for cracking XOR), CryptoPals(coding challenges for learning), CyberChef
+      - For bitwise shifting, there are also a number of tools
+        - binwalk, radare2, IDA Pro, Capstone, Frida, PyCrypto, 
+  - Right now, I've managed to separate the json part and the binary part
+    - trying to run radare2, not much success yet
